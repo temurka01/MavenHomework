@@ -10,10 +10,9 @@ public class Const {
             new Program("Программа 8")
     };
     public static final Television TV = new Television(
-            new Channel("Первый канал", Const.PROGRAMS),
-            new Channel("Россия 1", Const.PROGRAMS),
-            new Channel("ТВЦ", Const.PROGRAMS),
-            new Channel("НТВ", Const.PROGRAMS),
-            new Channel("5 Канал", Const.PROGRAMS)
-    );
+            new Channel[]{new Channel("Первый канал", Const.PROGRAMS),
+                    new Channel("Россия 1", Const.PROGRAMS),
+                    new Channel("ТВЦ", Const.PROGRAMS),
+                    new Channel("НТВ", Const.PROGRAMS),
+                    new Channel("5 Канал", Const.PROGRAMS)});
 }
